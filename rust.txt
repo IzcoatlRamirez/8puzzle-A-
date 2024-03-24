@@ -1,0 +1,22 @@
+--para iniciar un proyecto--
+    cargo new proyect_name
+
+--para ejecutar--
+    cargo run 
+
+--para agregar dependencias se añaden bajo 
+el apartado [dependencies] de Cargo.toml 
+con el siguiente formato:
+
+dependencia = "x.x"
+
+En donde dependencia es el 
+nombre de la misma, y x.x la versión.
+
+--para actualizar dependencias--
+    cargo update
+
+--para  para limpiar los artefactos de construcción generados por Cargo, 
+como los archivos objeto y los ejecutables.--
+
+    cargo clean
